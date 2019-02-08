@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
       <title>Abdelrahman Farrag</title>
 
+    
        <!-- CSS  -->      
       <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
       <!-- Font Awesome -->
@@ -19,7 +20,7 @@
       <!-- Main css File -->
       <link href="style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
       <!--link for equal column heights-->
-     
+
 
       <!-- Font -->
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -147,6 +148,10 @@
                     <div class="pro-bar-container color-wisteria">
                       <div class="pro-bar bar-70 color-amethyst" data-pro-bar-percent="80" data-pro-bar-delay="300"></div>
                     </div>
+                    <span>ReactJS</span>
+                    <div class="pro-bar-container color-wisteria">
+                      <div class="pro-bar bar-70 color-amethyst" data-pro-bar-percent="80" data-pro-bar-delay="300"></div>
+                    </div>
                     <span>JQuery</span>
                     <div class="pro-bar-container color-wisteria">
                       <div class="pro-bar bar-70 color-amethyst" data-pro-bar-percent="70" data-pro-bar-delay="300"></div>
@@ -261,45 +266,45 @@
       </section>
 
        
+          <!--
 
-          <!-- Start Footer -->
+          
           <footer id="footer" role="contentinfo">
-            <!-- Start Footer Top -->
+           
             <div class="footer-top">
               <div class="container">
                 <div class="row">
                   <div class="col s12">
                     <div class="footer-top-inner">
-                      <h2 class="title">Contact</h2>
-           
-                      <div class="contact">
-                        <div class="row">
-                          <div class="col s12 m6 l6">
-                            <div class="contact-form">
-                              <form>
-                                <div class="input-field">
-                                  <input type="text" class="input-box" name="contactName" id="contact-name">
-                                  <label class="input-label" for="contact-name">Name</label>
-                                </div>
-                                <div class="input-field">
-                                  <input type="email" class="input-box" name="contactEmail" id="email">
-                                  <label class="input-label" for="email">Email</label>
-                                </div>
-                                <div class="input-field">
-                                  <input type="text" class="input-box" name="contactSubject" id="subject">
-                                  <label class="input-label" for="subject">Subject</label>
-                                </div>
-                                <div class="input-field textarea-input">
-                                  <textarea class="materialize-textarea" name="contactMessage" id="textarea1"></textarea>
-                                  <label class="input-label" for="textarea1">Message</label>
-                                </div>
-                                <button class="left waves-effect btn-flat brand-text submit-btn" type="submit" >send message</button>
-                              </form>
-                            </div>
-                          </div>
-                         
-                        </div>
-                      </div>
+                      <h2 class="title">Contact</h2> -->
+                    
+
+                     
+                       
+                        
+                        <!--adding contact form in progress
+
+                        <div id="jcf">
+                          <form action="" method="post" id="contact_form">
+                           <select name="topic" id="topic" class="contact_topic">
+                            <option value="">Choose an option...</option>
+                            <option value="Option 1">Option 1</option>
+                            <option value="Option 2">Option 2</option>
+                            <option value="Option 3">Option 3</option>
+                           </select>
+                           <input class="contact_name" type="text" name="name" id="name" placeholder="Name" />
+                           <input class="contact_email" type="email" name="email" id="email" placeholder="Email" />
+                           <input class="contact_subject" type="text" name="subject" id="subject" placeholder="Subject" />
+                           <textarea class="contact_message" name="message" id="message" placeholder="Write your message..."></textarea>
+                           <button class="submit" type="submit" id="send_message" style="height: 43px;">Send Message</button>
+                          </form>
+                         </div>
+                         -->
+
+                          
+                          
+                        
+
                     </div>
                   </div>
                 </div>
@@ -335,8 +340,13 @@
       <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
       <!-- counter -->
       <script src="js/waypoints.min.js"></script>
-      <script src="js/jquery.counterup.min.js"></script>     
+      <script src="js/jquery.counterup.min.js"></script>  
+      
+     
+      
 
+      <?php include 'send_email.php'; ?>
+ 
       <!-- Custom Js -->
       <script src="js/custom.js"></script>      
     </body>
